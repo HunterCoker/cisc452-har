@@ -27,7 +27,7 @@ To contribute to this project, follow the steps below:
    repository by running the following commands:
 
    ```powershell
-   git clone https://HunterCoker/cisc452-har.git
+   git clone https://github.com/HunterCoker/cisc452-har.git
    cd cisc452-har
    ```
 
