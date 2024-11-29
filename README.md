@@ -18,34 +18,35 @@ To contribute to this project, follow the steps below:
 
    For **Windows 10/11** users, run the following command in a **PowerShell** terminal:
 
-   ```powershell
+   ```bash
    ~\Anaconda3\Scripts\activate.bat base
    ```
+
 3. Clone this repository and cd into it.
-   
-   Open a terminal and change directory (`cd`) into some project directory. Use `git` to clone this 
+
+   Open a terminal and change directory (`cd`) into some project directory. Use `git` to clone this
    repository by running the following commands:
 
-   ```powershell
+   ```bash
    git clone https://github.com/HunterCoker/cisc452-har.git
    cd cisc452-har
    ```
 
-5. Use the provided `environment.yml` file to create the conda environment for this project.
-   
+4. Use the provided `environment.yml` file to create the conda environment for this project.
+
    Run the following command:
 
-   ```powershell
+   ```bash
    conda env create --file=environment.yml
    ```
 
-7. Open Visual Studio Code in the root of the repo as shown below:
+5. Open Visual Studio Code in the root of the repo as shown below:
 
    ```bash
    code .  # make sure working directory is project-dir/cisc452-har
    ```
 
-8. Make sure Visual Studio Code is using your new environment.
+6. Make sure Visual Studio Code is using your new environment.
 
    - Use the keyboard command `Ctrl+Shft+P` to open the **Command Palette**
 
