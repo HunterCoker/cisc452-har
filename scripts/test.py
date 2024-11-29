@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 import torch.nn as nn
 import torch.optim as optim
 # project code
-from fcm import Model, test_model, TestConfig, WISDMDataset
+from har import Model, test_model, TestConfig, WISDMDataset
 
 
 # the names of models correspond to its accuracy on the validation dataset during training

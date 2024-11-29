@@ -9,7 +9,7 @@ import numpy as np
 import torch.nn as nn
 import torch.optim as optim
 # project code
-from fcm import Model, train_model, TrainConfig, WISDMDataset
+from har import Model, train_model, TrainConfig, WISDMDataset
 
 config = TrainConfig(
     batch_size=64,
