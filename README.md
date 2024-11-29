@@ -2,9 +2,6 @@
 
 We are using the **UCI WISDM HAR** dataset for this project.
 
-> Get the dataset here:
-> [Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip)
-
 To contribute to this project, follow the steps below:
 
 1. Download and Install Anaconda3 if you haven't already.
