@@ -7,14 +7,13 @@ from torch.utils.data import DataLoader
 import torch.nn as nn
 import torch.optim as optim
 # project code
-from har import Model, test_model, TestConfig, WISDMDataset
-
+from har import Model, test_model, TestConfig, WISDMDataset, FocalLoss
 
 # the names of models correspond to its accuracy on the validation dataset during training
 #   95.65 -> 93.82 is an example of good generalization
 #   98.07 -> 91.72 is an example of overfitting
 config = TestConfig(
-    model_path="models/95.65"
+    model_path="models/aa"
 )
 
 
@@ -33,7 +32,7 @@ if __name__ == '__main__':
     )
     model.load(config.model_path)
 
-    criterion = nn.CrossEntropyLoss()
+    criterion = FocalLoss(gamma=0.5)
 
     test_model(
         model=model,
