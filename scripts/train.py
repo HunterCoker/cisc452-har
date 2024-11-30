@@ -9,7 +9,8 @@ import numpy as np
 import torch.nn as nn
 import torch.optim as optim
 # project code
-from har import Model, train_model, TrainConfig, WISDMDataset
+from har import Model, train_model, TrainConfig, WISDMDataset, FocalLoss
+
 
 config = TrainConfig(
     batch_size=64,
@@ -43,8 +44,8 @@ if __name__ == '__main__':
         output_size=dataset.nclasses
     )
 
-    # loss and optimizer
-    criterion = nn.CrossEntropyLoss()
+
+    criterion = FocalLoss(gamma=0.5)
     optimizer = optim.Adam(
         params=model.parameters(),
         lr=config.learning_rate
