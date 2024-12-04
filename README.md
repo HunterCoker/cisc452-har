@@ -1,9 +1,25 @@
-# cisc452-har
+# About this project
 
 We are using the **UCI WISDM HAR** dataset for this project.
 
-To contribute to this project, follow the steps below:
+Technologies used:
+- Visual Studio Code
+- Anaconda3 with Python 3.10
 
+# Using Project Scripts
+
+There are two main scripts that this project is built around.
+- `scripts/train.py`: Allows you to generate new models using the desired training configuration.
+  > The user does not have access to the model's internal paraemeters from this script, but the user can tune other parameters, such as batch size, learning rate, and the maximum number of epochs.
+
+- `scripts/test.py`: Allows you to test a specific model against the testing dataset.
+  > The model for testing is chosen in the testing configuration. Saved models can be found in the `models` directory. The models that come with this project are named corresponding to their accuracy against the validation data after training, not the testing data.
+
+Generate and test your own model!
+
+# Project Setup
+
+Before you can run the scripts, you will need to set up your project environment. To do so, follow these steps:
 1. Download and Install Anaconda3 if you haven't already.
 
    > Find instructions here:
@@ -11,7 +27,7 @@ To contribute to this project, follow the steps below:
 
    I recommend leaving all options default when clicking through the prompts.
 
-2. Activate the _base_ conda environment in your terminal.
+2. Activate the `base` conda environment in your terminal.
 
    For **Windows 10/11** users, run the following command in a **PowerShell** terminal:
 
