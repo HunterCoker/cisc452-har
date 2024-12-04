@@ -1,4 +1,4 @@
-# About this project
+# About this Project
 
 We are using the **UCI WISDM HAR** dataset for this project.
 
