@@ -77,4 +77,3 @@ dependencies:
   - yaml=0.2.5=h1a28f6b_0
   - zlib=1.2.13=h18a0788_1
   - zstd=1.5.6=hfb09047_0
-prefix: /opt/anaconda3/envs/cisc452-har
