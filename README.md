@@ -6,7 +6,7 @@ Technologies used:
 - Visual Studio Code
 - Anaconda3 with Python 3.10
 
-# Using Project Scripts
+# Project Scripts
 
 There are two main scripts that this project is built around.
 - `scripts/train.py`: Allows you to generate new models using the desired training configuration.
